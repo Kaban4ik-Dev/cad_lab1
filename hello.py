@@ -1,6 +1,6 @@
-# hello.py — версия 1
-def greet(name: str) -> str:
-    return f"Hello, {name}!"
+# hello.py — версия 2
+def greet(name: str, m_from: str) -> str:
+    return f"Hello, {name}, from {m_from}!"
 
 if __name__ == "__main__":
-    print(greet("world"))
+    print(greet("world", "MAI"))
